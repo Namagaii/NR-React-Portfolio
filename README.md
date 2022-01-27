@@ -1,4 +1,4 @@
-# NR-React-Portfolio ![LicenseBadge](https://img.shields.io/badge/ License-MIT-red.svg)
+# NR-React-Portfolio ![LicenseBadge](https://img.shields.io/badge/License-MIT-red.svg)
 ## Description
 My portfolio website show casing the projects I have developed over my career.
 ## Usage
