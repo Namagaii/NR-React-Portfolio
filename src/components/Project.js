@@ -5,7 +5,7 @@ import { Card, Button, Col } from "react-bootstrap";
 const Project = ({props}) => {
     const onClickHandler = (e) => {
         e.preventDefault();
-        window.location.assign("/showproject/" + props.index)
+        window.location.assign(process.env.PUBLIC_URL+"#/showproject/" + props.index)
     }
     return (
     <Col style={{display:"flex", justifyContent:"center"}}>

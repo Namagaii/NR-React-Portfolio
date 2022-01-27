@@ -7,10 +7,10 @@ const Nav = () => {
   <div>
   <Navbar bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="/">NR</Navbar.Brand>
+  <Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>NR</Navbar.Brand>
   <Navbs className="me-auto">
-    <Navbs.Link href="/">Home</Navbs.Link>
-    <Navbs.Link href="/contacts">Contact Me</Navbs.Link>
+    <Navbs.Link href={`${process.env.PUBLIC_URL}/`}>Home</Navbs.Link>
+    <Navbs.Link href={`${process.env.PUBLIC_URL}/#/contacts`}>Contact Me</Navbs.Link>
   </Navbs>
   </Container>
 </Navbar>
