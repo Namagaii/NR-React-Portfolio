@@ -11,8 +11,8 @@ import data from './data/ProjectData';
 
 function App() { 
   return (
-    <div style={{height:"120%", backgroundColor: "#63B1FF"}}>
-      <Route exact path="/">
+    <div style={{height:"95%", backgroundColor: "#63B1FF"}}>
+      <Route path="/">
       <Header />
       <div className='ProjectDisplayArea'>
         <Row xs={1} md={2} className="g-1">
@@ -24,10 +24,10 @@ function App() {
       </div>
       <Footer />
       </Route>
-      <Route exact path="/showproject/:index">
+      <Route path="/showproject/:index">
         <ProjectDisplayPage />
       </Route>
-      <Route exact path="/contacts">
+      <Route path="/contacts">
         <ContactsPage />
       </Route>
     </div>
