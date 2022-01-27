@@ -2,7 +2,7 @@
   "name": "nr-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://namagaii.github.io/nr-react-portfolio",
+  "homepage": "http://namagaii.github.io/nr-react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
