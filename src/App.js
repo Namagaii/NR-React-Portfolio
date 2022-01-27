@@ -4,16 +4,14 @@ import Project from "./components/Project";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row } from 'react-bootstrap';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import ContactsPage from './pages/ContactsPage';
 import ProjectDisplayPage from './pages/ProjectDisplayPage';
 import data from './data/ProjectData';
 
 function App() { 
-  console.log(process.env.PUBLIC_URL)
   return (
     <div style={{height:"120%", backgroundColor: "#63B1FF"}}>
-    <Router basename={process.env.PUBLIC_URL}>
       <Route exact path="/">
       <Header />
       <div className='ProjectDisplayArea'>
@@ -32,7 +30,6 @@ function App() {
       <Route exact path="/contacts">
         <ContactsPage />
       </Route>
-    </Router>
     </div>
   );
 }
