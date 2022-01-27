@@ -12,7 +12,7 @@ import data from './data/ProjectData';
 function App() { 
   return (
     <div style={{height:"120%", backgroundColor: "#63B1FF"}}>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route exact path="/">
       <Header />
       <div className='ProjectDisplayArea'>
