@@ -10,6 +10,7 @@ import ProjectDisplayPage from './pages/ProjectDisplayPage';
 import data from './data/ProjectData';
 
 function App() { 
+  console.log(process.env.PUBLIC_URL)
   return (
     <div style={{height:"120%", backgroundColor: "#63B1FF"}}>
     <Router basename={process.env.PUBLIC_URL}>
