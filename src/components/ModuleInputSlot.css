@@ -1,8 +1,9 @@
 .Module-Input-Slot {
     display: block;
-    position: relative;
-    background-color: red;
-    border: 1px black solid;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
     width: 10rem;
     height: 10rem;
 }
@@ -11,20 +12,27 @@
     content: "";
     display: block;
     position: absolute;
-    top: 63%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -63%);
+    transform: translate(-50%, -50%);
     width: 6.4rem;
     height: 6.4rem;
-    border: 5px white solid;
+    background-color: lightgray;
+    border: 0.5rem black solid;
     border-radius: 25%;
 }
 
 .Module-Input-Slot::after {
     content: "+";
     font-family: 'Rubik', sans-serif;
-    font-size: 10rem;
+    font-size: 9rem;
+    line-height: 6.4rem;
+    text-align: center;
+    color: black;
     position: absolute;
+    display: block;
+    width: 7rem;
+    height: 7rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

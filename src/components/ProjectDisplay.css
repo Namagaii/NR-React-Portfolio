@@ -1,15 +1,6 @@
-main {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #63B1FF;
-    height: 82%;
-}
-
 .cardGroup {
-    border: 2px #056acf solid;
-    border-radius: 7px;
+    border: 0.2rem #056acf solid;
+    border-radius: 0.7rem;
 }
 
 .projectTextArea {

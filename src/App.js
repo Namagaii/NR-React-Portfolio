@@ -9,15 +9,20 @@ import ContactsPage from './pages/ContactsPage';
 import ProjectDisplayPage from './pages/ProjectDisplayPage';
 import data from './data/ProjectData';
 import ModuleInputSlot from './components/ModuleInputSlot';
+import ModuleDisplayArea from './components/ModuleDisplayArea';
+import { useState } from 'react';
 
 function App() {
   console.log(process.env.PUBLIC_URL) 
+  const [dropInstructions, setDropInstructions] = useState("Testing");
   return (
-    <div style={{height:"98%", backgroundColor: "#63B1FF"}}>
+    <main className='main'>
       <Router basename={process.env.PUBLIC_URL}>
         <Route exact path="/">
         <Header />
-          <ModuleInputSlot />
+        <p id="drop-instructions-p">{dropInstructions}</p>
+        <ModuleInputSlot />
+        <ModuleDisplayArea />
         <Footer />
         </Route>
         <Route path="/showproject/:index">
@@ -27,7 +32,7 @@ function App() {
           <ContactsPage />
         </Route>
       </Router>
-    </div>
+    </main>
   );
 }
 

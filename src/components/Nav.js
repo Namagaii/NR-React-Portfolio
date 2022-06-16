@@ -1,21 +1,14 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Navbar, Nav as Navbs } from 'react-bootstrap';
+import './Nav.css';
 
 const Nav = () => {
   return( 
-  <div>
-  <Navbar bg="dark" variant="dark">
-  <Container>
-  <Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>NR</Navbar.Brand>
-  <Navbs className="me-auto">
-    <Navbs.Link href={`${process.env.PUBLIC_URL}/`}>Home</Navbs.Link>
-    <Navbs.Link href={`${process.env.PUBLIC_URL}/#/contacts`}>Contact Me</Navbs.Link>
-  </Navbs>
-  </Container>
-</Navbar>
-
-  </div>
+    <nav className='navbar'>
+      <link></link>
+      <link></link>
+      <link></link>
+    </nav>
   );
 };
 
