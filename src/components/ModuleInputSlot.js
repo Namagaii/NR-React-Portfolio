@@ -2,6 +2,7 @@ import React from 'react';
 import './ModuleInputSlot.css';
 function ModuleInputSlot() {
     const handleDrop = (event) =>{
+        event.preventDefault();
         const moduleData = event.DataTransfer.getData("ModuleData");
         console.log(moduleData);
     }

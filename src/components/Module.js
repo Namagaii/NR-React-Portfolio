@@ -7,6 +7,7 @@ function Module(props) {
 
   const handleDrag = (e) => {
     //TODO: Delete if this has no use Nothing rn
+    e.preventDefault();
   }
 
   return (
