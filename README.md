@@ -2,7 +2,7 @@
 ## Description
 My portfolio website show casing the projects I have developed over my career.
 ## Usage
-Go to [https://namagaii.github.io/NR-React-Portfolio/](https://namagaii.github.io/NR-React-Portfolio/)
+Go to [https://noelr21.github.io/NR-React-Portfolio/](https://noelr21.github.io/NR-React-Portfolio/)
 ## License
 Licensed under the [MIT](http://choosealicense.com/licenses/mit/)
 ## Contribute
