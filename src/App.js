@@ -1,11 +1,18 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import CardButtons from './components/CardButtons';
+import Flashcard from './components/Flashcard';
+import Header from './components/Header';
+import Nav from './components/Nav';
 
 function App() {
   return (
-    <main className='main'>
-      <div>hello</div>
-    </main>
+    <div className='app'>
+      <Header />
+      <Nav />
+      <Flashcard />
+      <CardButtons />
+      {/* Todo: Add footer here */}
+    </div>
   );
 }
 
